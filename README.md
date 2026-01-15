@@ -2,6 +2,8 @@ This is the webserver that hosts results for the CCDC nmap bot.
 # Prerequisites
 Instructions for downloading and installing golang for linux can be found on the golang website here: https://go.dev/doc/install.
 
+Secondly, `gcc` must be installed for the binary to compile correctly.
+
 Once go is installed, the next step is to build the webserver. 
 1. Use  `git clone` to copy the repos into `/opt`
 2. Chown directory ownership to a non-root user
@@ -9,7 +11,7 @@ Once go is installed, the next step is to build the webserver.
 
 ```shell
 cd /opt
-https://github.com/MNCCDC-RedTeam/nmap-dashboard-rt.git
+git clone https://github.com/MNCCDC-RedTeam/nmap-dashboard-rt.git
 sudo chown <user>:<user_group> -R nmap-dashboard-rt/
 cd nmap-dashboard-rt
 go build
