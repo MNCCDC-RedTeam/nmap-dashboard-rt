@@ -1,4 +1,6 @@
 This is the webserver that hosts results for the CCDC nmap bot. 
+# Acknowledgements
+Shout out goes to [s3cr3t](https://github.com/brian-l-johnson) for creating the original bot, and for captaining the Red Team for Minnesota CCDC for many years. Your work will go on, and is in good hands.
 # Prerequisites
 Instructions for downloading and installing golang for linux can be found on the golang website here: https://go.dev/doc/install.
 
